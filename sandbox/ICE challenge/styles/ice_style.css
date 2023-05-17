@@ -1,0 +1,12 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.circle-row {
+    display: flex;
+    gap: 5x;
+    width: 200px;
+    height: auto;
+}
