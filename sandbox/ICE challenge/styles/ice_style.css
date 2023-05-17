@@ -5,8 +5,15 @@
     width: 100%;
 }
 .circle-row {
-    display: flex;
-    gap: 5x;
-    width: 200px;
-    height: auto;
+    display: inline;
+    justify-content: center;
+    width: 25%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 18px;
+}
+.hellscape-of-my-own-creation {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
 }
